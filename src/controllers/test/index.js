@@ -1,8 +1,7 @@
 const reportServices = require('../../services');
 
 const test = async (ctx) => {
-  const data = ctx.request.body;
-  ctx.body = await reportServices.test(data);
+  ctx.body = await reportServices.test(ctx);
 
   ctx.res.statusCode = 200;
 };
