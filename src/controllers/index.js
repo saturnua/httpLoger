@@ -1,3 +1,3 @@
-const reportControllers = require('./test');
+const testHttpControllers = require('./test');
 
-module.exports = { reportControllers };
+module.exports = { testHttpControllers };

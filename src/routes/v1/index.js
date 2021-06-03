@@ -1,6 +1,6 @@
 const Router = require('@koa/router');
 
-const reportRouter = require('./reportToTm');
+const reportRouter = require('./testHttp');
 
 const router = new Router({ prefix: '/v1' });
 

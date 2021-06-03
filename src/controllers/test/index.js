@@ -1,12 +1,12 @@
 const reportServices = require('../../services');
 
-const send = async (ctx) => {
+const test = async (ctx) => {
   const data = ctx.request.body;
-  ctx.body = await reportServices.send(data);
+  ctx.body = await reportServices.test(data);
 
   ctx.res.statusCode = 200;
 };
 
-const userControllers = { send };
+const userControllers = { test };
 
 module.exports = userControllers;
