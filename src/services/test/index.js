@@ -1,6 +1,5 @@
 const test = async (ctx) => {
-
-  return ctx.body;
+  return ctx.body = {message : ' 🙈🙈🙈 Hello from test 🙈🙈🙈 '};
 };
 const reportServices = { test };
 
